@@ -1,0 +1,62 @@
+header {
+    background-color: skyblue;
+    margin: 20px;              /* Margen externo de 20px alrededor */
+    padding: 15px;             /* Espaciado interno de 15px */
+    border-radius: 8px;        /* Bordes redondeados de 8px */
+    text-align: center;
+}
+
+.primero {
+    background-color: yellow;
+}
+
+.visible {
+    background-color: pink;
+}
+.row {
+    width: 95%;       /* Ocupa el 95% del ancho del contenedor */
+    display: flex;  /* Usa flexbox para alinear los elementos hijos horizontalmente */
+}
+
+/* ---------- Columnas que ocupan 1/4 del ancho (25%) ---------- */
+.col4 {
+    width: 25%;      /* Ancho del 25% del contenedor */
+    margin: 20px;              /* Margen externo de 20px alrededor */
+    padding: 15px;             /* Espaciado interno de 15px */
+}
+
+/* ---------- Columnas que ocupan 1/2 del ancho (50%) ---------- */
+.col2 {
+    background-color: skyblue;
+    width: 50%;      /* Ancho del 50% */
+    text-align: center;   /* Centra el contenido horizontalmente */
+    margin: 20px;              /* Margen externo de 20px alrededor */
+    padding: 15px;             /* Espaciado interno de 15px */
+    border-radius: 8px;        /* Bordes redondeados de 8px */
+}
+
+h4 {
+    text-align: center;
+}
+
+p, .listas, body {
+    margin: 20px;              /* Margen externo de 20px alrededor */
+    padding: 15px;             /* Espaciado interno de 15px */
+    border-radius: 8px;        /* Bordes redondeados de 8px */
+
+}
+
+.listas  {
+    background-color: skyblue;
+}
+
+.inicio {
+    text-align: right;
+}
+
+.HTML { background-color: aqua;}
+.CSS {background-color: brown;}
+.Gym {background-color: chartreuse;}
+.Lunes {background-color: blueviolet;}
+.Miercoles {background-color: cornflowerblue;}
+.Sabado {background-color: crimson;}
